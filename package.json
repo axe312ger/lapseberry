@@ -4,13 +4,15 @@
   "description": "experimental raspberry pi timelapse using rxjs with support of over 6000 cameras",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug": "babel-node debug lib/index.js",
+    "dev": "nodemon lib/index.js --exec babel-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "execa": "^0.7.0",
+    "moment": "^2.18.1",
     "rxjs": "^5.4.2"
   },
   "devDependencies": {
@@ -22,6 +24,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.11.0"
   }
 }
