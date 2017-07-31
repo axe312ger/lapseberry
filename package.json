@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bancroft": "0.0.13",
     "execa": "^0.7.0",
     "moment": "^2.18.1",
     "rxjs": "^5.4.2"
